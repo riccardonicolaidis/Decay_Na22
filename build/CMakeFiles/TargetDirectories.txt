@@ -1,0 +1,4 @@
+/home/local1/Desktop/Decay_Na22/build/CMakeFiles/rebuild_cache.dir
+/home/local1/Desktop/Decay_Na22/build/CMakeFiles/edit_cache.dir
+/home/local1/Desktop/Decay_Na22/build/CMakeFiles/simulation.dir
+/home/local1/Desktop/Decay_Na22/build/CMakeFiles/Simulation.dir
