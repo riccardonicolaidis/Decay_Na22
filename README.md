@@ -9,7 +9,34 @@ This project folder is inspired from the YouTube video series you can find at th
 ------------------------------------
 
 ## The content of the software
-Description to be added
+In this software, a system composed of two NaI scintillators and a Na22 radioactive source is presented.
+
+![detector](/docs/assets/images/detector._0000.png)
+
+The Na 22 is in the middle of the system. The radioactive decay Physics has been introduced in the physics list of the simulation. Using some defined classes, it is possible to measure the energy deposited in the two scintillators due to the radioactivity of the Na 22 source. 
+
+The simulation does not implement the scintillation mechanisms involved in the dectection. The energy spectrum measured in this simulation, will have very narrow photopeaks. 
+
+![A](/docs/assets/images/Edep_A.png)
+
+![B](/docs/assets/images/Edep_B.png)
+
+The effect of the finite resolution can be added later using a convolution with a gaussian noise.
+
+![A gaus](/docs/assets/images/Edep_gaus_A.png)
+
+![B](/docs/assets/images/Edep_gaus_B.png)
+
+
+If we make the histogram 2D of the two channels it is possible to see the correlation between different Compton edges
+
+![2D A e B](/docs/assets/images/AB.png)
+
+If we add some blur to the histogram, in order to have a realistic detection, the result is the following:
+
+![2D A e B gaus](/docs/assets/images/AB_gaus.png)
+
+
 
 
 
