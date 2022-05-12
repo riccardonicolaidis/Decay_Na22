@@ -100,7 +100,7 @@ void histogram()
 
 
     TCanvas *c3 = new TCanvas();
-    TH2D *h2d = new TH2D("h2d", "", 400, 0.1,3,400,0.1, 3);
+    TH2D *h2d = new TH2D("h2d", "", 900, 0.1,3,900,0.1, 3);
     tree_gaus_conv -> Draw("Edep_gaus_A:Edep_gaus_B>>h2d", "","colz");
     c3 -> Draw();
     c3 -> SaveAs("../docs/assets/images/AB_gaus.png");
@@ -108,7 +108,7 @@ void histogram()
 
     TCanvas *c4 = new TCanvas();
     TH2D *h2d2 = new TH2D("h2d2", "", 1000, 0.1,3,1000,0.1, 3);
-    Edep -> Draw("fEdep_A:fEdep_B>>h2d2", "","colz");
+    Edep -> Draw("fEdep_A:fEdep_B>>h2d2", "","");
     c4 -> Draw();
     c4 -> SaveAs("../docs/assets/images/AB.png");
 
